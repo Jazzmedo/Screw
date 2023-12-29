@@ -19,10 +19,10 @@ input[type="number"]::-webkit-outer-spin-button {
 
 form {
     width: auto;
-    padding: 20px;
+    padding: 20vw;
     background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-    border-radius: 8px;
+    box-shadow: 0 0 10vw rgba(0, 0, 0, 1);
+    border-radius: 8vw;
     max-width:100%; height:auto;
 }
 .inter{
@@ -30,13 +30,13 @@ form {
 }
 .heat{
     display: grid;
-    gap: 9px;
-    margin: 58px 5px 5px;
+    gap: 9vw;
+    margin: 58vw 5vw 5vw;
 }
 .mul{
-    border-radius: 1000px;
-    width:44px;
-    height:44px;
+    border-radius: 1000vw;
+    width:44vw;
+    height:44vw;
     background-color: #1842ff;
     align-self: centerrgb(0, 47, 255);
     color: #ffffff;
@@ -48,9 +48,9 @@ form {
     background-color: #0027d4;  
 }
 .bkk{
-    border-radius: 1000px;
-    width:44px;
-    height:44px;
+    border-radius: 1000vw;
+    width:44vw;
+    height:44vw;
     background-color: #ff0000;
     align-self: center;
     color: #ffffff;
@@ -66,12 +66,12 @@ label {
 .mbtnn {
     background-color: #003cff;
     color: #fff;
-    padding: 10px 15px;
+    padding: 10vw 15vw;
     border: none;
     font-size: larger;
     font-weight: 400;
     font-family: "Product Sans";
-    border-radius: 4px;
+    border-radius: 4vw;
     text-align: center;
     cursor: pointer;
     text-decoration: none;
@@ -87,13 +87,13 @@ label {
     font-size: larger;
     font-weight: 400;
     font-family: "Product Sans";
-    border-radius: 10000px;
+    border-radius: 10000vw;
     text-align: center;
     cursor: pointer;
     text-decoration: none;
-    width: 44px;
-    height: 44px;
-    border: 1px solid #000000;
+    width: 44vw;
+    height: 44vw;
+    border: 1vw solid #000000;
 }
 
 .mbtnnb:hover {
@@ -101,24 +101,24 @@ label {
 }
 
 .redT {
-    font-size: 60px;
+    font-size: 60vw;
     text-align: center;
-    margin: 0px;
+    margin: 0vw;
 }
 
 .capt {
-    margin: 0px;
+    margin: 0vw;
     text-align: center;
     font-family: "Product Sans";
-    font-size: 25px;
+    font-size: 25vw;
     color: #f03a17;
     font-weight: 500;
 }
 .captt {
-    margin: 0px;
+    margin: 0vw;
     text-align: center;
     font-family: "Product Sans";
-    font-size: 35px;
+    font-size: 35vw;
     color: #00d400;
     font-weight: 700;
     text-decoration: #000000;
@@ -127,117 +127,117 @@ label {
 .grdd {
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 5px;
+    gap: 5vw;
 }
 .grdd8 {
     display: grid;
     grid-template-columns:auto auto auto auto auto auto auto auto auto;
-    gap: 5px;
+    gap: 5vw;
 }
 .grdd7 {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto;
-    gap: 5px;
+    gap: 5vw;
 }
 .grdd6 {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto;
-    gap: 5px;
+    gap: 5vw;
 }
 .grdd5 {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
-    gap: 5px;
+    gap: 5vw;
 }
 .grdd4 {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
-    gap: 5px;
+    gap: 5vw;
 }
 .grdd3 {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    gap: 5px;
+    gap: 5vw;
 }
 .grdd2 {
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 5px;
+    gap: 5vw;
 }
 
 .biuy {
     text-align: center;
     font-family: sans-serif;
-    font-size: 25px;
+    font-size: 25vw;
     color: #1eff00;
     font-weight: 400;
-    margin-bottom: 0px;
+    margin-bottom: 0vw;
 }
 
 .itxt {
     width: 100%;
-    padding: 8px;
+    padding: 8vw;
     box-sizing: border-box;
-    border: 1px solid #ff0000;
-    border-radius: 4px;
-    height: 50px;
-    width: 130px;
-    padding: 10px;
-    font-size: 17px;
+    border: 1vw solid #ff0000;
+    border-radius: 4vw;
+    height: 50vw;
+    width: 130vw;
+    padding: 10vw;
+    font-size: 17vw;
     text-align: center;
-    border: 2px solid #3498db;
+    border: 2vw solid #3498db;
     color: #ffffff;
     background-color: #65001b;
-    border-radius: 5px;
+    border-radius: 5vw;
     outline: none;
-    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+    box-shadow: 0 0 5vw rgba(52, 152, 219, 0.5);
     font-family: 'Product Sans';
 }
 
 .inum {
     width: 100%;
-    padding: 8px;
+    padding: 8vw;
     box-sizing: border-box;
-    border: 1px solid #ff0000;
-    border-radius: 4px;
-    height: 50px;
-    width: 130px;
-    padding: 10px;
-    font-size: 30px;
+    border: 1vw solid #ff0000;
+    border-radius: 4vw;
+    height: 50vw;
+    width: 130vw;
+    padding: 10vw;
+    font-size: 30vw;
     text-align: center;
-    border: 2px solid #3498db;
+    border: 2vw solid #3498db;
     color: #ffffff;
     background-color: #23193d;
-    border-radius: 5px;
+    border-radius: 5vw;
     outline: none;
-    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+    box-shadow: 0 0 5vw rgba(52, 152, 219, 0.5);
     font-family: 'Product Sans';
 }
 
 .lbl {
     font-family: 'Product Sans';
-    height: 40px;
-    width: 110px;
+    height: 40vw;
+    width: 110vw;
     background-color: #290f75;
     color: #ffffff;
-    border-radius: 7px;
+    border-radius: 7vw;
     text-align: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 20vw;
     font-weight: 525;
-    padding-top: 10px;
+    padding-top: 10vw;
 }
 
 .ttal {
     background-color: #ff9d02;
     color: #ffffff;
-    padding: 10px 20px;
+    padding: 10vw 20vw;
     border: none;
-    border-radius: 7px;
+    border-radius: 7vw;
     cursor: pointer;
     text-align: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 20vw;
     font-weight: 525;
     font-family: 'Product Sans';
 
