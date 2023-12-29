@@ -1,0 +1,253 @@
+body {
+    background-image: url("../img/wallpaper.jpg");
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* For Firefox */
+/* For Chrome, Safari, and Edge */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+form {
+    width: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    border-radius: 8px;
+}
+.inter{
+    display: flex;
+}
+.heat{
+    display: grid;
+    gap: 9px;
+    margin: 58px 5px 5px;
+}
+.mul{
+    border-radius: 1000px;
+    width:44px;
+    height:44px;
+    background-color: #1842ff;
+    align-self: centerrgb(0, 47, 255);
+    color: #ffffff;
+    font-size: medium;
+    text-align: center;
+    font-weight: 600;
+}
+.mul:hover{
+    background-color: #0027d4;  
+}
+.bkk{
+    border-radius: 1000px;
+    width:44px;
+    height:44px;
+    background-color: #ff0000;
+    align-self: center;
+    color: #ffffff;
+    font-size: medium;
+    text-align: center;
+    font-weight: 600;
+}
+label {
+    display: block;
+}
+
+
+.mbtnn {
+    background-color: #003cff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    font-size: larger;
+    font-weight: 400;
+    font-family: "Product Sans";
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.mbtnn:hover {
+    background-color: #0027d3;
+}
+.mbtnnb {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    font-size: larger;
+    font-weight: 400;
+    font-family: "Product Sans";
+    border-radius: 10000px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    width: 44px;
+    height: 44px;
+    border: 1px solid #000000;
+}
+
+.mbtnnb:hover {
+    background-color: #d30000;
+}
+
+.redT {
+    font-size: 60px;
+    text-align: center;
+    margin: 0px;
+}
+
+.capt {
+    margin: 0px;
+    text-align: center;
+    font-family: "Product Sans";
+    font-size: 25px;
+    color: #f03a17;
+    font-weight: 500;
+}
+.captt {
+    margin: 0px;
+    text-align: center;
+    font-family: "Product Sans";
+    font-size: 35px;
+    color: #00d400;
+    font-weight: 700;
+    text-decoration: #000000;
+}
+
+.grdd {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+}
+.grdd8 {
+    display: grid;
+    grid-template-columns:auto auto auto auto auto auto auto auto auto;
+    gap: 5px;
+}
+.grdd7 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    gap: 5px;
+}
+.grdd6 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    gap: 5px;
+}
+.grdd5 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 5px;
+}
+.grdd4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 5px;
+}
+.grdd3 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+}
+.grdd2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+}
+
+.biuy {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #1eff00;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.itxt {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ff0000;
+    border-radius: 4px;
+    height: 50px;
+    width: 130px;
+    padding: 10px;
+    font-size: 17px;
+    text-align: center;
+    border: 2px solid #3498db;
+    color: #ffffff;
+    background-color: #65001b;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+    font-family: 'Product Sans';
+}
+
+.inum {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ff0000;
+    border-radius: 4px;
+    height: 50px;
+    width: 130px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid #3498db;
+    color: #ffffff;
+    background-color: #23193d;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+    font-family: 'Product Sans';
+}
+
+.lbl {
+    font-family: 'Product Sans';
+    height: 40px;
+    width: 110px;
+    background-color: #290f75;
+    color: #ffffff;
+    border-radius: 7px;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 525;
+    padding-top: 10px;
+}
+
+.ttal {
+    background-color: #ff9d02;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 525;
+    font-family: 'Product Sans';
+
+}
+
+.ttal:hover {
+    background-color: rgb(230, 184, 0);
+    /* Change the color on hover */
+}
+.inum[value="0"] {
+    /* Style for value equals 0 */
+    background-color: #50a501; /* Change color to red, for example */
+    /* Add any other styles you want to apply when the value is 0 */
+}
